@@ -1,0 +1,44 @@
+.home {
+    background-color:gainsboro;
+}
+
+/* Remover marcadores da lista e padding do menu */
+.menu {
+    padding: 0; /* Remove o padding padrão */
+    background-color:gainsboro; /* Cor de fundo para o menu */
+}
+
+/* Estilizar os itens da lista (li) */
+.menu li {
+    margin-right: 15px; /* Espaço entre os itens */
+}
+
+/* Estilizar os links (a) */
+.menu li a {
+    display: block; /* Garante que o link ocupe toda a área do li */
+    padding: 15px 20px; /* Espaçamento interno dos links */
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #333; /* Cor do texto */
+    font-weight: bold; /* Texto em negrito */
+    text-align: center; /* Alinha o texto ao centro */
+    transition:  0.7s; /* Transição suave para o hover */
+}
+
+/* Efeito de hover nos links */
+.menu li a:hover {
+    background-color: rgb(124, 102, 102); /* Cor de fundo ao passar o mouse */
+}
+
+fieldset {
+    color: rgb(255, 255, 255);
+    border-color: gray;
+    background-color: #333;
+}
+legend{
+    font-style:oblique;
+    color: white;
+}
+
+.aluno {
+    background-color: rgba(40, 56, 42, 0.699);
+}
