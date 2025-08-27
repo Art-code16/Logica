@@ -13,19 +13,19 @@
 <body class="aluno">
 
 
-    <h2><center>CADASTRO DE ALUNOS</center></h2>
+    <h2 class="titulo"><center>CADASTRO DE ALUNOS</center></h2>
 
     <hr>
 
     <p class="texto">Preencha os dados do(a) aluno(a):</p>
     <br>
-    <fieldset>
-        <legend>CADASTRO DE ALUNO(A)</legend>
+    <fieldset class="cadastro">
+        <legend class="central">CADASTRO DE ALUNO(A)</legend>
         <br>
         <form name="formalunos" method="post" onsubmit="return testa_form();" action="#">
 
             <!-- Nome do aluno -->
-            <label for="aluno">Nome do aluno: *</label class = "cadastroA"><br>
+            <label for="aluno">Nome do aluno:</label><br>
             <input type="text" id="aluno" name="aluno" style="width: 310px"required>
             <br>
             <br>
@@ -35,7 +35,7 @@
             <br>
             <br> 
             <!-- Sexo -->
-            <span>Sexo:</span>
+            <span class="sex">Sexo:</span>
             <input type="radio" id="masculino" name="sexo" value="masculino">
             <label for="masculino">Masculino</label>
             
@@ -44,7 +44,7 @@
             <br>
 
             <!-- CPF -->
-            <label for="cpf">CPF: *</label>
+            <label for="cpf">CPF:</label>
             <input type="text" id="cpf" name="cpf" placeholder="###.###.###-##" autocomplete="off" style="width: 110px;" data-mask="cpf" oninput="mascara(this)" required> <br>
 			<!--A tag <small> no HTML é usada para indicar texto em menor destaque -->
             <small>(Sem espaços, pontos ou traços)</small>
@@ -120,6 +120,9 @@
 
         </form>
     </fieldset>
+
+</body>
+</html>
 
 </body>
 </html>
