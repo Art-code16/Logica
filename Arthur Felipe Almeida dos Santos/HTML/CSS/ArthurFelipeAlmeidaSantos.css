@@ -13,9 +13,7 @@
     margin-right: 15px; 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-legend{
-    color: crimson;
-}
+
 /* Estilizar os links */
 .menu li a {
     display: block;
@@ -26,7 +24,10 @@ legend{
     text-align: center;
     transition:  0.7s; 
 }
-
+legend{
+    color: rgb(174, 43, 226);
+    
+}
 /* Efeito de hover nos links */
 .menu li a:hover {
     background-color: rgb(207, 204, 204); 
