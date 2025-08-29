@@ -14,3 +14,20 @@ function tasta_form(){
     }
 
 }
+
+
+function processar_dados(){
+    var sobrenome = document.getElementById('sobrenome').value;
+    var nome = document.getElementById('nome').value;
+    var endereco = document.getElementById('endereço').value;
+    var idade = document.getElementById('Idade').value;
+
+    var cadastro = [nome, sobrenome,endereco, idade];
+    var resultado = document.getElementById('resultado');
+    resultado.innerHTML = '<h3> Dados Cadastrados </h3>'
+
+    for (var i = 0; i < cadastro.length; i++) {
+        resultado.innerHTML += cadastro[i] + '<br>';
+    }
+    return false;
+}
