@@ -25,15 +25,19 @@
             <input type="number" name="lado3" id="triangulo3" required>
         </div>
 
+<br>
+<br>
+
         <button type="submit">Enviar</button>
     </form>
+
+<br>
 
     <div id="resultado" class="div4"></div>
 
 </body>
 </html>
-
-______________________________________________________________________________________________________
+_________________________________________________________________________________________
 
 function verificacao_triangulo() {
     let a = parseFloat(document.getElementById("triangulo1").value);
