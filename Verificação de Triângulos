@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Verificação de triângulos</title>
-    <link rel="stylesheet" href="CSS verificação de triângulos/Verificacao_triangulos.css">
-    <script src="Verificacao_triangulo.js" defer></script>
+
+    <link rel="stylesheet" href="CSS/Projeto.css">
+    <script src="JS/Projeto.js" defer></script>
+
 </head>
 <body>
+
+<h1>Descubra a classificação dos triângulos</h1>
+
+<fieldset>
+<legend>Qual o tamanho dos três lados do triângulos?</legend>
+
 
     <form id="verificacao">
         <div class="div1">
@@ -15,10 +25,12 @@
             <input type="number" name="lado1" id="triangulo1" required>
         </div>
 
+
         <div class="div2">
             <label for="triangulo2">Lado 2:</label>
             <input type="number" name="lado2" id="triangulo2" required>
         </div>
+
 
         <div class="div3">
             <label for="triangulo3">Lado 3:</label>
@@ -30,7 +42,7 @@
 
         <button type="submit">Enviar</button>
     </form>
-
+</fieldset>
 <br>
 
     <div id="resultado" class="div4"></div>
@@ -75,10 +87,11 @@ document.addEventListener("DOMContentLoaded", function () {
         verificacao_triangulo();
     });
 });
-
 ________________________________________________________________________________________________
 
 .div1 label {
+    font-size: large;
+    font-weight: bold;
     text-align: center;
     display: block;
     margin-bottom: 5px;
@@ -86,6 +99,8 @@ ________________________________________________________________________________
 }
 
 .div2 label {
+    font-size: large;
+    font-weight: bold;
     text-align: center;
     display: block;
     margin-bottom: 5px;
@@ -93,6 +108,8 @@ ________________________________________________________________________________
 }
 
 .div3 label {
+    font-size: large;
+    font-weight: bold;
     text-align: center;
     display: block;
     margin-bottom: 5px;
@@ -134,4 +151,29 @@ button:hover {
 .div1 input, .div2 input, .div3 input {
     font-size: 16px;
     text-align: center;
+}
+
+body{
+    background-color: #ccc;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+legend{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+fieldset{
+    display: block;
+    background-color: #6b6a6a;
+    border-color: #000000 ;
+    box-shadow: 50%;
+    border-style:dashed ;
 }
