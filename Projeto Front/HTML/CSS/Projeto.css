@@ -1,0 +1,90 @@
+.div1 label {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.div2 label {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.div3 label {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1f1a1a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3a3a3a;
+    transition: 0.5s;
+}
+
+.div4 {
+    text-align: center;
+    margin-top: 20px;
+    font-size:large;
+    color: orangered;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.div1 input, .div2 input, .div3 input {
+    font-size: 16px;
+    text-align: center;
+}
+
+body{
+    background-color: #a89090;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+
+legend{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+fieldset{
+    display: block;
+    background-color: #a7a3a3;
+    border-color: #000000 ;
+    box-shadow: 50%;
+    border-style:dashed ;
+}
