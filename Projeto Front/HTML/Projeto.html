@@ -1,51 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Verificação de triângulos</title>
 
-    <link rel="stylesheet" href="CSS/Projeto.css">
+    <link rel="stylesheet" href="CSS/Projeto.css" />
     <script src="JS/Projeto.js" defer></script>
+  </head>
+  <body>
+    <h1>Descubra a classificação dos triângulos</h1>
 
-</head>
-<body>
+    <fieldset>
+      <legend>Qual o tamanho dos três lados do triângulos?</legend>
 
-<h1>Descubra a classificação dos triângulos</h1>
-
-<fieldset>
-<legend>Qual o tamanho dos três lados do triângulos?</legend>
-
-
-    <form id="verificacao">
+      <form id="verificacao">
         <div class="div1">
-            <label for="triangulo1">Lado 1:</label>
-            <input type="number" name="lado1" id="triangulo1" required>
+          <label for="triangulo1">Lado 1:</label>
+          <input type="number" name="lado1" id="triangulo1" required />
         </div>
-
 
         <div class="div2">
-            <label for="triangulo2">Lado 2:</label>
-            <input type="number" name="lado2" id="triangulo2" required>
+          <label for="triangulo2">Lado 2:</label>
+          <input type="number" name="lado2" id="triangulo2" required />
         </div>
-
 
         <div class="div3">
-            <label for="triangulo3">Lado 3:</label>
-            <input type="number" name="lado3" id="triangulo3" required>
+          <label for="triangulo3">Lado 3:</label>
+          <input type="number" name="lado3" id="triangulo3" required />
         </div>
 
-<br>
-<br>
+        <br />
+        <br />
 
         <button type="submit">Enviar</button>
-    </form>
-</fieldset>
-<br>
+      </form>
+    </fieldset>
+    <br />
 
     <div id="resultado" class="div4"></div>
 
-</body>
+    <div class="div5">
+      <h1>Preço a pagar</h1>
+      <form id="preco">
+        <fieldset>
+          <legend>Quantas maçãs você deseja?</legend>
+          <label for="macas">Maçãs:</label>
+          <input type="number" id="macas" required />
+          <br />
+          <br />
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </div>
+
+    <div id="resultado_preco" class="div6"></div>
+
+    <div class="div7">
+      <h1>Fahrenheit</h1>
+      <form id="calor">
+        <fieldset>
+          <legend>Quantos graus Celsius está fazendo neste momento?</legend>
+          <label for="temperatura_c">ºC:</label>
+          <input type="number" id="temperatura_c" required />
+          <br />
+          <br />
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </div>
+
+    <div id="resultado_calor" class="div8"></div>
+  </body>
+</html>
+
 </html>
