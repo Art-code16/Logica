@@ -1,21 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap");
-.div1 label {
-  font-size: large;
-  font-weight: bold;
-  text-align: center;
-  display: block;
-  margin-bottom: 5px;
-}
 
-.div2 label {
-  font-size: large;
-  font-weight: bold;
-  text-align: center;
-  display: block;
-  margin-bottom: 5px;
-}
 
-.div3 label {
+label {
   font-size: large;
   font-weight: bold;
   text-align: center;
@@ -81,11 +67,13 @@ fieldset {
   background-color: #a7a3a3;
   border-color: #000000;
   border-style: dashed;
+  border-radius: 20px;
+  box-shadow: 1px 5px 5px 5px;
 }
 
 .div5 {
   margin-top: 20px;
-  font-size: large;
+  font-size: larger;
   color: rgb(24, 9, 9);
   text-align: center;
   font-family: "Smooch Sans", sans-serif;
@@ -94,7 +82,7 @@ fieldset {
 
 .div6 {
   margin-top: 20px;
-  font-size: large;
+  font-size: larger;
   color: rgb(24, 9, 9);
   text-align: center;
   font-family: "Smooch Sans", sans-serif;
@@ -103,7 +91,7 @@ fieldset {
 
 .div7 {
   margin-top: 20px;
-  font-size: large;
+  font-size: larger;
   color: rgb(24, 9, 9);
   text-align: center;
   font-family: "Smooch Sans", sans-serif;
@@ -112,7 +100,25 @@ fieldset {
 
 .div8{
   margin-top: 20px;
-  font-size: large;
+  font-size: larger;
+  color: rgb(24, 9, 9);
+  text-align: center;
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: bold;
+}
+
+.div9{
+  margin-top: 20px;
+  font-size: larger;
+  color: rgb(24, 9, 9);
+  text-align: center;
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: bold;
+}
+
+.div10{
+  margin-top: 20px;
+  font-size:larger;
   color: rgb(24, 9, 9);
   text-align: center;
   font-family: "Smooch Sans", sans-serif;
