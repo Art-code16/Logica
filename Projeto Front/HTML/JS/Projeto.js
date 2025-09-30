@@ -33,6 +33,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
+//______________________________________________________________________________
+
+
 function quantidade_fruta() {
   const preco = 7.5;
   let quantidade = parseInt(document.getElementById("macas").value);
@@ -53,14 +57,20 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
+//______________________________________________________________________________
+
+
 function Fahrenheit() {
   let resultado3 = document.getElementById("temperatura_c").value;
   let final = document.getElementById("resultado_calor");
+  let temperatura = parseFloat(resultado3);
 
-  if (resultado3 === isNaN) {
-    return false;
+  if (temperatura === isNaN()) {
+    final.innerHTML = "Pfv preencha da forma correta!!";
+    return;
   } else {
-    let calculo_temperatura = parseFloat((resultado3 * 1.8) + 32);
+    let calculo_temperatura = parseFloat((temperatura * 1.8) + 32);
     final.innerHTML = `A temperatura em ºF ${calculo_temperatura}`;
     return;
   }
@@ -71,3 +81,62 @@ document.addEventListener("DOMContentLoaded", function () {
     Fahrenheit();
   });
 });
+
+
+//______________________________________________________________________________
+
+
+function verificacao_retangulo() {
+
+  let L = parseInt(document.getElementById("tamanho_largura").value);
+  let A = parseInt(document.getElementById("tamanho_altura").value);
+  let resultado_rt = document.getElementById("resultado_retangulo");
+
+  if (isNaN(L) || isNaN(A)) {
+    resultado_rt.innerHTML = "Pfv preencha da forma correta";
+    return;
+  } else {
+    let calculo_retangulo = parseInt(L * A);
+    resultado_rt.innerHTML = `A area do retangulo é ${calculo_retangulo}`;
+    return;
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("retangulo").addEventListener("submit", function (e) {
+    e.preventDefault();
+    verificacao_retangulo();
+  });
+});
+
+
+//______________________________________________________________________________
+
+
+function IMC() {
+  let kg = Float(document.getElementById("peso").value);
+  let m = Float(document.getElementById("altura").value);
+  let resultadoIMC = document.getElementById("resultado_imc");
+  calculo_imc = (kg / (m * m));
+
+  if (kg === isNaN() || m === isNaN()) {
+    resultadoIMC.innerHTML = "Digite novamente..";
+    return;
+  } else if (calculo_imc < 18.50) {
+    resultadoIMC.innerHTML = "C ta Magrão zé";
+    return;
+  } else if (calculo_imc > 24.99) {
+    resultadoIMC.innerHTML = "C ta gordão em júpiter com braço e perna";
+
+  } else {
+    resultadoIMC.innerHTML = "C ta normal";
+    return;
+  }
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("IMC").addEventListener("submit", function (e) {
+    e.preventDefault();
+    IMC();
+  });
+});
+
+}
