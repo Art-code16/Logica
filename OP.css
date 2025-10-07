@@ -1,0 +1,66 @@
+h1 {
+  text-align: center;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+legend {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: larger;
+  text-align: center;
+}
+
+fieldset {
+  box-shadow: 5px 3px 2px 2px;
+}
+
+.div1 legend {
+  color: rgb(75, 75, 255);
+}
+
+.div1 fieldset {
+  border-color: rgb(29, 29, 255);
+  background-color: rgb(180, 180, 255);
+}
+
+.div2 legend {
+  color: rgb(0, 59, 10);
+}
+
+.div2 fieldset {
+  border-color: rgb(0, 61, 10);
+  background-color: rgb(101, 204, 132);
+}
+
+.div3 legend {
+  color: rgb(0, 0, 0);
+}
+
+.div3 fieldset {
+  border-color: rgb(100, 100, 100);
+  background-color: rgb(192, 192, 192);
+}
+
+.div4 legend {
+  color: rgb(255, 254, 254);
+}
+
+.div4 fieldset {
+  border-color: rgb(168, 168, 168);
+  background-color: rgb(83, 83, 83);
+}
+
+.div5 legend {
+  color: rgb(18, 255, 58);
+}
+
+.div5 fieldset {
+  border-color: rgb(16, 134, 0);
+  background-color: rgb(180, 255, 224);
+}
+
+body {
+  background-color: rgb(230, 201, 164);
+}
